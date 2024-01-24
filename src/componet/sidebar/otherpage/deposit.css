@@ -1,0 +1,70 @@
+.res-section {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  /* background: linear-gradient(to left, #3e9731 0%, #2a3f73 100%); */
+  color: black;
+  border-radius: 0 0 10px 10px;
+}
+.res-section .res-details {
+  display: flex;
+  flex-direction: column;
+}
+.res-section .res-details .crypto-address {
+  cursor: pointer;
+}
+.res-section .res-details .crypto-timer {
+  font-size: 25px;
+  color: red;
+}
+li.lideposit:hover {
+  box-shadow: 0px 2px 15px 5px rgb(0 0 0 / 20%),
+    0px 1px 0px 0px rgb(0 0 0 / 14%), 0px 1px 4px 0px rgb(0 0 0 / 12%);
+}
+
+.makeapaymentbutoon {
+  padding: 20px 78px !important;
+}
+.radioButoon-main {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  border-bottom: 1px dotted;
+}
+.radiobutoon-padding {
+  padding: 5px !important;
+}
+.headerMenu a {
+  padding: 17px;
+}
+.headerMenu a.active {
+  background: rgb(93 32 103 / 10%);
+  color: #8e0400;
+}
+.headerMenu a.active .hoverSidebar {
+  filter: none;
+}
+.headerMenu a.active span,
+.headerMenu:hover span {
+  color: #8e0400 !important;
+}
+.deposit-image-flex {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.deposit-close-position {
+  position: absolute;
+  right: 0;
+  top: -4px;
+}
+.width-150px {
+  width: 150px;
+}

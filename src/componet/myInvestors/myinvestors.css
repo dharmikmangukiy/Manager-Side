@@ -1,0 +1,21 @@
+.pending-all-15px {
+    padding: 15px;
+}
+.newFilterSection {
+    align-items: center;
+    display: flex;
+}
+.filterBy {
+    align-items: end;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.main-heading {
+    font-family: cairo,sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700!important;
+    line-height: 1.2;
+    margin-bottom: 1.5rem!important;
+    width: 100%!important;
+}
